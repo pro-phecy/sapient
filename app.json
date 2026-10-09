@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Sapient",
+    "slug": "sapient-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "scheme": "sapient",
+    "newArchEnabled": true,
+    "plugins": ["expo-document-picker", "expo-notifications"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "app.sapient.student"
+    },
+    "android": {
+      "package": "app.sapient.student",
+      "edgeToEdgeEnabled": true
+    }
+  }
+}
